@@ -4,10 +4,7 @@ const themeToggle = document.getElementById('themeToggle');
 const emoji = document.getElementById('emoji');
 
 function getEmojiByTime(hour) {
-  const customEmoji = prompt("Enter your custom emoji (e.g., 🌅, 🌞, 🌙):");
-  if (customEmoji) {
-    return customEmoji;
-  }
+  
   if (hour >= 5 && hour < 12) {
     return '🌅'; // Morning
   } else if (hour >= 12 && hour < 17) {
