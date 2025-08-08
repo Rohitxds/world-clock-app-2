@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Clock</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>World Clock</h1>
+    <div class="tabs">
+      <button class="tab active" data-zone="Asia/Kolkata">India</button>
+      <button class="tab" data-zone="Asia/Shanghai">China</button>
+      <button class="tab" data-zone="America/New_York">US</button>
+    </div>
+    <div class="clock" id="clock">--:--:--</div>
+    <div class="emoji" id="emoji">😊</div>
+    <button id="themeToggle">Toggle Theme</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
